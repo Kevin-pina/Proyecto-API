@@ -5,9 +5,9 @@ class trabajador{
     agregar(nuevo){
         this.datos.push(nuevo);
     }
-    buscar(nombre){
+    buscar(datos){
         for(let i=0;i<this.datos.length;i++){
-            if(this.datos[i].nombre==nombre)
+            if(this.datos[i].datos==datos)
                 return this.datos[i];
         }
         return null;

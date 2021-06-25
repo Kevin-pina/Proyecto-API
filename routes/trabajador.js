@@ -1,7 +1,6 @@
 const router=require("express").Router()
 let trabajadorController=require("../controllers/trabajadorController");
 router.get("/",(req,res)=>{
-    console.log("Jalisco")
     trabajadorController.listar(req,res);
 })
 router.get("/:id",(req,res)=>{

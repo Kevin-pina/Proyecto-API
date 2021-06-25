@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+        crossorigin="anonymous"></head>
+<body
+style="background-image: url(https://fondosmil.com/fondo/69976.jpg); background-color: dodgerblue;"class="container-sm">
+
+<h1 class="card-header" style="text-align:center;color:lavenderblush">Proyecto Final API</h1>
+
+<form action="http://localhost:3000/api/trabajador" method="post" target="_blank"class="badge bg-secondary">
+  <label for="nombre">Primer nombre:</label>
+  <input type="text" id="inNombre" name="inNombre"class="list-group list-group-flush"><br><br>
+  <label for="id">id:</label>
+  <input type="text" id="inId" name="inId"class="list-group list-group-flush"><br><br>
+  <label for= "apellido">Apellido:</label>
+  <input type="text" id="inApellido" name="inApellido"class="list-group list-group-flush"><br><br>
+  <label for="puesto">Puesto:</label>
+  <input type="text"id="inPuesto" name="inPuesto"class="list-group list-group-flush"><br><br>
+  <label for="telefono">Telefono:</label>
+  <input type="text"id="inTelefono" name="inTelefono"class="list-group list-group-flush"><br><br>
+  <label for="edad">Edad:</label>
+  <input type="text" id="inEdad" name="inEdad"class="list-group list-group-flush"><br><br>
+  <input type="submit" value="Agregar">
+</form>
+<form action="http://localhost:3000/api/trabajador" method="GET" target="blank"><br>
+    <input type="submit"value="listado">
+
+   
+    
+</form>
+<form action="http://localhost:3000/api/trabajador/+" method="GET"target="blank">
+    <label for="id"style="color:white">Id:</label>
+  <input type="text" id="inId" name="inId"class="list-group list-group-flush"><br><br>
+  <input type="submit" value="Buscar">
+</form>
+
+</body>
+
+</html>
